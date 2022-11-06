@@ -1,0 +1,14 @@
+{
+  "name": "mono-demo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "rollup": "^3.2.5"
+  }
+}

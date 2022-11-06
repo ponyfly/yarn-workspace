@@ -1,0 +1,17 @@
+{
+  "name": "stone-bar",
+  "version": "1.0.0",
+  "main": "src/main.mjs",
+  "module": "src/main.mjs",
+  "exports": {
+    ".": {
+      "import": "./src/main.mjs"
+    }
+  },
+  "scripts": {
+    "build": "rollup -i src/main.mjs -f esm -o dist/bundle.js"
+  },
+  "dependencies": {
+    "dayjs": "1"
+  }
+}

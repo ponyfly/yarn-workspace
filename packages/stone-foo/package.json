@@ -1,0 +1,16 @@
+{
+  "name": "stone-foo",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^2.0.0-alpha.4",
+    "stone-bar": "1.0.0",
+    "vue": "^3.2.41"
+  },
+  "scripts": {
+    "build": "rollup -i src/main.js -f esm -o dist/bundle.js"
+  },
+  "devDependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
